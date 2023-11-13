@@ -59,7 +59,7 @@
     <!--Carousels-->
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
-      <div class="relative overflow-hidden rounded-lg" style="height: 900px;">
+      <div class="relative overflow-hidden rounded-lg h-[100vh]">
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="/Finding True Faces.png"
@@ -136,10 +136,9 @@
     </div>
 
     <!-- About Me -->
-    <div class="py-[100px]">
+    <section id="about-me" class="pt-16">
       <div class="flex flex-col justify-center items-center gap-5">
         <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">About Me</h1>
-        <hr class="w-[350px] h-[1px]" />
       </div>
       <div class="flex flex-col p-10 max-w-6xl">
         <div class="max-w-[500px] max-h-[500px]">
@@ -148,129 +147,152 @@
         </div>
         <div class="p-5 flex flex-col gap-5">
           <div>
-            <h2 class="text-3xl" style="font-family: 'Bohemian Soul', serif; justify-between items-stretch p-20">
+            <h2 class="text-3xl" style="font-family: 'Bohemian Soul', serif;">
               I'm a Creative Graphic Designer & Illustrator
             </h2>
           </div>
-          <div class="h-[350px] flex flex-col justify-between items-stretch gap-5">
-            <div>
-              <p>Undergraduate visual communication design student at Binus University. Known as passionate and creative
-                graphic designer with a strong foundation at digital media. Have interest in creating product design on
-                illustration based. Adept at translating ideas into compelling visual designs, i bring concepts to life
-                through a mix of creativity and technical expertise. I'm seeking a challenging role in a creative
-                environment where I can improve my design skills and contribute to innovative projects.</p>
-
+          <div class="flex flex-col justify-between items-stretch gap-5">
+            <div class="flex flex-col">
+              <p class="text-xl">
+                Undergraduate visual communication design student at Binus University. Known as passionate and creative
+                graphic designer with a strong foundation at digital media.
+              </p>
             </div>
             <div class="grid grid-cols-2 gap-3">
-              <div class="flex flex-col items-stretch">
+              <div class="flex flex-col items-stretch justify-center h-20  bg-purple-500 rounded-full">
                 <span
-                  class="text-black-800 bg-purple-100 font-medium text-center px-2.5 py-3 p-5 rounded-full w-full">Adobe
+                  class="text-black-800 font-medium text-center px-2.5 py-3 p-5 text-white">Adobe
                   Illustrator</span>
 
               </div>
-              <div class="flex flex-col items-stretch">
-                <span class="bg-purple-100 text-black-800 font-medium text-center px-2.5 py-3 rounded-full w-full">Adobe
+              <div class="flex flex-col items-stretch justify-center h-20 bg-purple-500 rounded-full">
+                <span class="text-black-800font-medium text-center px-2.5 py-3  text-white">Adobe
                   Photoshop</span>
 
               </div>
-              <div class="flex flex-col items-stretch">
-                <span class="bg-purple-100 text-black-800 font-medium text-center px-2.5 py-3 rounded-full w-full">Adobe
+              <div class="flex flex-col items-stretch justify-center h-20 bg-purple-500 rounded-full">
+                <span class="text-black-800font-medium text-center px-2.5 py-3 text-white">Adobe
                   InDesign</span>
 
               </div>
-              <div class="flex flex-col items-stretch">
+              <div class="flex flex-col items-stretch justify-center h-20 bg-purple-500 rounded-full text-white">
                 <span
-                  class="bg-purple-100 text-black-800 font-medium text-center px-2.5 py-3 rounded-full w-full">Procreate</span>
+                  class="text-black-800 font-medium text-center px-2.5 py-3">Procreate</span>
 
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- My Skills -->
-    <div class="py-[100px] ">
-      <div class="flex flex-col justify-center items-center gap-5">
-        <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">My Skills</h1>
-        <!-- <hr class="w-[350px] h-[1px]" /> -->
-      </div>
-
-      <!-- My Skills services-->
-      <ul class="flex flex-row gap-5 p-5">
-        <li>
-          <div class="w-[100px] h-[100px]">
-            <img src="/yellowphoto.png" width="500" height="500" class="object-cover w-full h-full 
-                    rounded-full p-[2px] border border-[#B6A1CC]" />
-            <!-- <h3>Adobe Illustrator</h3>
-                  <p>Adept at translating visual</p> -->
-          </div>
-        </li>
-        <!-- <li>
-                <div class="sub-img w-[250px] h-[250px]">
-                  <img src="/yellowphoto.png" width="500" height="500" class="object-cover w-full h-full 
-                    rounded-full p-3 border-2 border-[#B6A1CC]" />
-                  <h3>Adobe Illustrator</h3>
-                  <p>Adept at translating visual</p>
-                </div>
-              </li>
-              <li>
-                <div class="sub-img w-[250px] h-[250px]">
-                  <img src="/yellowphoto.png" width="500" height="500" class="object-cover w-full h-full 
-                    rounded-full p-3 border-2 border-[#B6A1CC]" />
-                  <h3>Adobe Illustrator</h3>
-                  <p>Adept at translating visual</p>
-                </div>
-              </li> -->
-      </ul>
-
-      <!-- My Artworks-->
-      <div class="py-[100px] flex flex-col items-center w-full">
-        <div class="heading">
-          <div class="flex flex-col justify-content: center; items-center gap-5">
-            <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif; ">My Artworks</h1>
-            <p>Most common methods for designing websites</p>
-            <hr class="w-[350px] h-[1px]" />
-          </div>
+    <section id="my-skills" class="py-5 bg-yellow-300">
+      <div class="py-5 flex flex-col items-center">
+        <div class="text-center">
+          <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">My Skills</h1>
+          
         </div>
-
-
-        <div class="My Artworks-content">
-          <div class="col">
-            <img src="/Zero Waste Grey.png">
-            <div class="layer">
-              <h3>Web Design</h3>
-              <h5>Popup</h5>
+        <div class="grid grid-cols-2 p-10 gap-10 place-content-center place-items-center">
+            <div class="flex flex-col justify-center items-center gap-3">
+              <div class="w-32 h-32 rounded-full p-2 border-2 border-white">
+                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/123.png" />
+              </div>
+              <span class="text-center text-lg">Graphic Design</span>
             </div>
-          </div>
-
-          <div class="col">
-            <img src="/Zero Waste Grey.png">
-            <div class="layer">
-              <h3>Web Design</h3>
-              <h5>Popup</h5>
+            <div class="flex flex-col justify-center items-center gap-3">
+              <div class="w-32 h-32 rounded-full p-2 border-2 border-white">
+                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/123.png" />
+              </div>
+              <span class="text-center text-lg">Illustration</span>
             </div>
-          </div>
-
-          <div class="col">
-            <img src="/Zero Waste Grey.png">
-            <div class="layer">
-              <h3>Web Design</h3>
-              <h5>Popup</h5>
+            <div class="flex flex-col justify-center items-center gap-3">
+              <div class="w-32 h-32 rounded-full p-2 border-2 border-white">
+                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/123.png" />
+              </div>
+              <span class="text-center text-lg">UI/UX Design</span>
             </div>
-          </div>
-
-          <div class="col">
-            <img src="/Zero Waste Grey.png">
-            <div class="layer">
-              <h3>Web Design</h3>
-              <h5>Popup</h5>
+            <div class="flex flex-col justify-center items-center gap-3">
+              <div class="w-32 h-32 rounded-full p-2 border-2 border-white">
+                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/123.png" />
+              </div>
+              <span class="text-center text-lg">Product Design</span>
             </div>
-          </div>
-
         </div>
       </div>
-    </div>
+    </section>
+
+    <section id="my-artworks" class="py-5 bg-gray-500">
+      <div class="py-5 flex flex-col items-center">
+        <div class="text-center">
+          <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">My Artworks</h1>      
+          <span>I'm a creative designer</span>
+        </div>
+        <div class="grid grid-cols-1 place-content-center place-items-center px-10 py-5 gap-5 w-full">
+          <div class="w-full flex flex-col items-center gap-3 p-5">
+            <div class="aspect-[424/496]">
+              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/123.png" />
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-xl font-bold">I'm a creative</span>
+              <span>I'm a creative</span>
+            </div>            
+          </div>
+          <div class="w-full flex flex-col items-center gap-3 p-5">
+            <div class="aspect-[424/496]">
+              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/123.png" />
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-xl font-bold">I'm a creative</span>
+              <span>I'm a creative</span>
+            </div>            
+          </div>
+          <div class="w-full flex flex-col items-center gap-3 p-5">
+            <div class="aspect-[424/496]">
+              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/123.png" />
+            </div>
+            <div class="flex flex-col items-center">
+              <span class="text-xl font-bold">I'm a creative</span>
+              <span>I'm a creative</span>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact-me" class="bg-blue-100">
+      <div class="py-5 flex flex-col items-center">
+        <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">Contact Me</h1>
+        <div class="p-5">
+          <div class="text-white bg-gray-500 p-5 rounded-xl flex flex-col items-center gap-4">
+            <div class="text-center">
+              <h2>Let's Talk About Everything!</h2>
+              <h3>Send me your email</h3>
+            </div>
+            <div class="flex flex-row flex-wrap items-center gap-5">
+              <input class="p-3 m-1 drop-shadow-lg rounded-3xl w-full" placeholder="Enter your email" />
+              <button class="p-3 m-1 drop-shadow-lg rounded-3xl bg-white text-black w-full" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="px-5 flex flex-row flex-wrap items-center justify-around gap-5">
+          <div class="w-10 h-10 bg-lilac rounded-lg">
+
+          </div>
+          <div class="w-10 h-10 bg-lilac rounded-lg">
+
+          </div>
+          <div class="w-10 h-10 bg-lilac rounded-lg">
+
+          </div>
+          <div class="w-10 h-10 bg-lilac rounded-lg">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-red-100 px-2 py-6 text-center">
+      <small>Made with Love by Hunhun c 2023</small>
+    </footer>
   </main>
 </body>
 
