@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+.col h3{
+    text-align: center;
+}
+
+.col h5{
+    text-align: center;
+}
+
+.heading h3{
+    font-size: var(--h2-font);
+    font-weight: 500;
+    margin: 7px 0px 20px;
+    line-height: 1.1;
+}
+
+
+
