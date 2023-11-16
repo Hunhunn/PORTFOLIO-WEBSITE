@@ -28,14 +28,14 @@
 </head>
 
 <body>
-  <nav class="bg-transparent absolute top-0 border-gray-200 w-full z-50">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <nav class="absolute top-0 z-50 w-full bg-transparent border-gray-200">
+    <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white"
+        <span class="self-center text-2xl font-semibold text-white whitespace-nowrap"
           style="font-family: 'Bohemian Soul', sans-serif">Hun's Art Space</span>
       </a>
       <button data-collapse-toggle="navbar-default" type="button"
-        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:ring-2 focus:ring-gray-200"
+        class="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:ring-2 focus:ring-gray-200"
         aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -45,21 +45,21 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex flex-col items-baseline p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+          class="flex flex-col items-baseline p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
           <li>
-            <a href="#about-me" class="block py-2 px-3 rounded md:p-0 text-white outline-2 outline-black">About Me</a>
+            <a href="#about-me" class="block px-3 py-2 text-white rounded md:p-0 outline-2 outline-black">About Me</a>
           </li>
           <li>
-            <a href="#my-skills" class="block py-2 px-3 rounded md:p-0 text-white outline-2 outline-black">My Skills</a>
+            <a href="#my-skills" class="block px-3 py-2 text-white rounded md:p-0 outline-2 outline-black">My Skills</a>
           </li>
           <li>
-            <a href="#my-artworks" class="block py-2 px-3 rounded md:p-0 text-white outline-2 outline-black">My Artworks</a>
+            <a href="#my-artworks" class="block px-3 py-2 text-white rounded md:p-0 outline-2 outline-black">My Artworks</a>
           </li>
           <li>
-            <a href="#contact-me" class="block py-2 px-3 rounded md:p-0 text-white outline-2 outline-black">Contact Me</a>
+            <a href="#contact-me" class="block px-3 py-2 text-white rounded md:p-0 outline-2 outline-black">Contact Me</a>
           </li>
           <li>
-            <button type="button" class="border border-white px-4 py-2 rounded-3xl text-white">
+            <button type="button" class="px-4 py-2 text-white border border-white rounded-3xl">
               <a href="/CREATIVE CV copy.pdf" target="_blank">
               Download CV
             </a>
@@ -76,27 +76,27 @@
         <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="/Finding True Faces.png"
-            class="object-cover absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            class="absolute block object-cover w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="...">
         </div>
 
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="/The Rhythm of Life.jpg"
-            class="object-cover absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            class="absolute block object-cover w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="...">
         </div>
 
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img src="/Zero Waste.png"
-            class="object-cover absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            class="absolute block object-cover w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt="...">
         </div>
       </div>
 
       <!-- Slider indicators -->
-      <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2 rtl:space-x-reverse">
         <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
           data-carousel-slide-to="0"></button>
         <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
@@ -110,7 +110,7 @@
       </div>
       <!-- Slider controls -->
       <button type="button"
-        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group"
+        class="absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer start-0 group"
         data-carousel-prev>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full">
           <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -122,7 +122,7 @@
         </span>
       </button>
       <button type="button"
-        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group"
+        class="absolute top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer end-0 group"
         data-carousel-next>
         <span class="inline-flex items-center justify-center w-10 h-10 rounded-full">
           <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -137,17 +137,17 @@
 
     <!-- About Me -->
     <section id="about-me" class="pt-16">
-      <div class="md:px-52 px-16">
-        <div class="flex flex-col justify-center items-center gap-0 mx-auto border-b-4 p-4 border-purple-300">
+      <div class="px-16 md:px-52">
+        <div class="flex flex-col items-center justify-center gap-0 p-4 mx-auto border-b-4 border-purple-300">
         <h1 class="text-4xl text-center" style="font-family: 'Bohemian Soul', sans-serif;">About Me</h1>
         </div>
       </div>
-      <div class="flex flex-col mx-auto lg:flex-row-reverse py-10 max-w-6xl items-center gap-5">
+      <div class="flex flex-col items-center max-w-6xl gap-5 py-10 mx-auto lg:flex-row-reverse">
         <div class="md:max-w-[500px] md:max-h-[500px] max-h-[300px] max-w-[300px]">
           <img src="/Profile Photo.png" width="500" height="500" class="object-cover w-full h-full 
                 rounded-full p-3 border-2 border-[#8b5cf6]"/>
         </div>
-        <div class="p-5 flex flex-col gap-2">
+        <div class="flex flex-col gap-2 p-5">
           <div>
             <h1 class="text-2xl text-purple-500" style="font-family: 'Bohemian Soul', serif;">
               Hello there! I'm Hanni
@@ -158,7 +158,7 @@
               A Creative Graphic Designer & Illustrator
             </h2>
           </div>
-          <div class="flex flex-col justify-between items-stretch gap-8">
+          <div class="flex flex-col items-stretch justify-between gap-8">
             <div class="flex flex-col">
               <p class="text-xl">
                 Undergraduate visual communication design student at Binus University. Known as passionate and creative
@@ -166,31 +166,31 @@
               </p>
             </div>
             <div class="grid grid-cols-2 gap-3">
-              <div class="flex flex-col items-stretch justify-center h-14  bg-purple-500 rounded-full">
+              <div class="flex flex-col items-stretch justify-center bg-purple-500 rounded-full h-14">
                 <span
                   class="text-black-800 font-medium text-center px-2.5 py-3 p-5 text-white">Adobe
                   Illustrator</span>
 
               </div>
-              <div class="flex flex-col items-stretch justify-center h-14 bg-purple-500 rounded-full">
+              <div class="flex flex-col items-stretch justify-center bg-purple-500 rounded-full h-14">
                 <span class="text-black-800font-medium text-center px-2.5 py-3  text-white">Adobe
                   Photoshop</span>
 
               </div>
-              <div class="flex flex-col items-stretch justify-center h-14 bg-purple-400 rounded-full">
+              <div class="flex flex-col items-stretch justify-center bg-purple-400 rounded-full h-14">
                 <span class="text-black-800font-medium text-center px-2.5 py-3 text-white">Adobe
                   InDesign</span>
 
               </div>
-              <div class="flex flex-col items-stretch justify-center h-14 bg-purple-400 rounded-full text-white">
+              <div class="flex flex-col items-stretch justify-center text-white bg-purple-400 rounded-full h-14">
                 <span
                   class="text-black-800 font-medium text-center px-2.5 py-3">Adobe After Effects</span>
               </div>
-              <div class="flex flex-col items-stretch justify-center h-14 bg-purple-300 rounded-full text-white">
+              <div class="flex flex-col items-stretch justify-center text-white bg-purple-300 rounded-full h-14">
                 <span
                   class="text-black-800 font-medium text-center px-2.5 py-3">Procreate</span>
               </div>
-              <div class="flex flex-col items-stretch justify-center h-14 bg-purple-300 rounded-full text-white">
+              <div class="flex flex-col items-stretch justify-center text-white bg-purple-300 rounded-full h-14">
                 <span
                   class="text-black-800 font-medium text-center px-2.5 py-3">Figma</span>
               </div>
@@ -202,35 +202,35 @@
 
     <!-- My Skills -->
     <section id="my-skills" class="py-5 bg-yellow-100">
-      <div class="py-5 flex flex-col items-center">
+      <div class="flex flex-col items-center py-5">
         <div class="text-center text-purple-500">
           <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">My Skills</h1>
           
         </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 p-10 gap-10 place-content-center place-items-center">
-            <div class="flex flex-col justify-center items-center gap-3">
-              <div class="w-32 h-32 rounded-full p-2 border-2 border-purple-500">
-                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/Graphic Design.png" />
+        <div class="grid grid-cols-2 gap-10 p-10 md:grid-cols-4 place-content-center place-items-center">
+            <div class="flex flex-col items-center justify-center gap-3">
+              <div class="w-32 h-32 p-2 border-2 border-purple-500 rounded-full">
+                <img width="100px" height="100px" class="w-full h-full rounded-full" src="/Graphic Design.png" />
               </div>
-              <span class="text-center md:text-lg text-md font-bold">Graphic Design</span>
+              <span class="font-bold text-center md:text-lg text-md">Graphic Design</span>
             </div>
-            <div class="flex flex-col justify-center items-center gap-3">
-              <div class="w-32 h-32 rounded-full p-2 border-2 border-purple-500">
-                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/Illustration1.png" />
+            <div class="flex flex-col items-center justify-center gap-3">
+              <div class="w-32 h-32 p-2 border-2 border-purple-500 rounded-full">
+                <img width="100px" height="100px" class="w-full h-full rounded-full" src="/Illustration1.png" />
               </div>
-              <span class="text-center md:text-lg text-md font-bold">Illustration</span>
+              <span class="font-bold text-center md:text-lg text-md">Illustration</span>
             </div>
-            <div class="flex flex-col justify-center items-center gap-3">
-              <div class="w-32 h-32 rounded-full p-2 border-2 border-purple-500">
-                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/UIUX.png" />
+            <div class="flex flex-col items-center justify-center gap-3">
+              <div class="w-32 h-32 p-2 border-2 border-purple-500 rounded-full">
+                <img width="100px" height="100px" class="w-full h-full rounded-full" src="/UIUX.png" />
               </div>
-              <span class="text-center md:text-lg text-md font-bold">UI/UX Design</span>
+              <span class="font-bold text-center md:text-lg text-md">UI/UX Design</span>
             </div>
-            <div class="flex flex-col justify-center items-center gap-3">
-              <div class="w-32 h-32 rounded-full p-2 border-2 border-purple-500">
-                <img width="100px" height="100px" class="rounded-full w-full h-full" src="/Product Design.png" />
+            <div class="flex flex-col items-center justify-center gap-3">
+              <div class="w-32 h-32 p-2 border-2 border-purple-500 rounded-full">
+                <img width="100px" height="100px" class="w-full h-full rounded-full" src="/Product Design.png" />
               </div>
-              <span class="text-center md:text-lg text-md font-bold">Product Design</span>
+              <span class="font-bold text-center md:text-lg text-md">Product Design</span>
             </div>
         </div>
       </div>
@@ -238,109 +238,109 @@
 
     <!-- My Artworks -->
     <section id="my-artworks" class="py-5 bg-white gap-11">
-      <div class="py-5 flex flex-col items-center max-w-3xl mx-auto pb-9">
+      <div class="flex flex-col items-center max-w-3xl py-5 mx-auto pb-9">
         <div class="text-center">
           <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">My Artworks</h1>      
           <p class="p-5">Welcome to my artistic journey, a visual exploration where emotions converge with colors, shapes, and imagination.</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 place-content-center place-items-center px-10 py-5 gap-5 w-full">
+        <div class="grid w-full grid-cols-1 gap-5 px-10 py-5 md:grid-cols-3 place-content-center place-items-center">
             
-          <div class="w-full flex flex-col items-center gap-3 p-5">
+          <div class="flex flex-col items-center w-full gap-3 p-5">
               <div class="w-[212px] h-[248px]">
-                <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Column Infographic.jpg"/>
+                <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Column Infographic.jpg"/>
               </div>
               <div class="flex flex-col items-center text-center h-[50px]">
                 <span class="text-xl font-bold">Infographic</span>
-                <span class="text-center text-sm">Maintain social interaction in pandemic.</span>
+                <span class="text-sm text-center">Maintain social interaction in pandemic.</span>
               </div>            
             </div>
           
-            <div class="w-full flex flex-col items-center gap-3 p-5">
+            <div class="flex flex-col items-center w-full gap-3 p-5">
             <div class="w-[212px] h-[248px]">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/In A Blue Moon.jpg" />
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/In A Blue Moon.jpg" />
             </div>
             <div class="flex flex-col items-center h-[50px]">
               <span class="text-xl font-bold text-center">De'Lune Cookies</span>
-              <span class="text-center text-sm">Pretzel Cookies Packaging Product</span>
+              <span class="text-sm text-center">Pretzel Cookies Packaging Product</span>
             </div>            
           </div>
           
-          <div class="w-full flex flex-col items-center gap-3 p-5">
+          <div class="flex flex-col items-center w-full gap-3 p-5">
             <div class="w-[212px] h-[248px]">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Mockup Butterfly.jpg" />
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Mockup Butterfly.jpg" />
             </div>
             <div class="flex flex-col items-center text-center h-[50px]">
               <span class="text-xl font-bold text-center">A Lady & Butterflies</span>
-              <span class="text-center text-sm">Self Visualization</span>
+              <span class="text-sm text-center">Self Visualization</span>
             </div>            
           </div>
         </div>
           
-        <div class="grid grid-cols-1 md:grid-cols-3 place-content-center place-items-center px-10 py-5 gap-5 w-full">
-            <div class="w-full flex flex-col items-center gap-3 p-5">
+        <div class="grid w-full grid-cols-1 gap-5 px-10 py-5 md:grid-cols-3 place-content-center place-items-center">
+            <div class="flex flex-col items-center w-full gap-3 p-5">
               <div class="w-[212px] h-[248px]">
-                <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Black&White.jpg" />
+                <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Black&White.jpg" />
               </div>
               <div class="flex flex-col items-center h-[50px]">
                 <span class="text-xl font-bold text-center">Abstract Painting</span>
-                <span class="text-center text-sm">A combination of emphasis & balance</span>
+                <span class="text-sm text-center">A combination of emphasis & balance</span>
               </div>            
             </div>
           
-            <div class="w-full flex flex-col items-center gap-3 p-5">
+            <div class="flex flex-col items-center w-full gap-3 p-5">
             <div class="w-[212px] h-[248px]">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Mockup Lady & Piano.JPG" />
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Mockup Lady & Piano.JPG" />
             </div>
             <div class="flex flex-col items-center h-[50px]">
               <span class="text-xl font-bold text-center">Love's Sorrow</span>
-              <span class="text-center text-sm">A portray of a woman yearning  </span>
+              <span class="text-sm text-center">A portray of a woman yearning  </span>
             </div>            
           </div>
           
-          <div class="w-full flex flex-col items-center gap-3 p-5">
+          <div class="flex flex-col items-center w-full gap-3 p-5">
             <div class="w-[212px] h-[248px]">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Magazine.jpg"/>
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Magazine.jpg"/>
             </div>
             <div class="flex flex-col items-center h-[50px]">
               <span class="text-xl font-bold text-center">Savoir</span>
-              <span class="text-center text-sm">A Self Magazine</span>
+              <span class="text-sm text-center">A Self Magazine</span>
             </div>                       
           </div>
           </div>
-          <div class="grid grid-cols-1 md:grid-cols-3 place-content-center place-items-center px-10 py-5 gap-5 w-full">
-            <div class="w-full flex flex-col items-center gap-3 p-5">
+          <div class="grid w-full grid-cols-1 gap-5 px-10 py-5 md:grid-cols-3 place-content-center place-items-center">
+            <div class="flex flex-col items-center w-full gap-3 p-5">
               <div class="w-[212px] h-[248px]">
-                <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Pattern.jpg" />
+                <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Pattern.jpg" />
               </div>
               <div class="flex flex-col items-center h-[50px]">
                 <span class="text-xl font-bold text-center">Reminiscent of Warmth</span>
-                <span class="text-center text-sm">Organic shape patterns</span>
+                <span class="text-sm text-center">Organic shape patterns</span>
               </div>            
             </div>
           
-            <div class="w-full flex flex-col items-center gap-3 p-5">
+            <div class="flex flex-col items-center w-full gap-3 p-5">
             <div class="w-[212px] h-[248px]">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Futuristic Mystery.PNG"/>
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Futuristic Mystery.PNG"/>
             </div>
             <div class="flex flex-col items-center h-[50px]">
               <span class="text-xl font-bold text-center">A glimmer of Hope</span>
-              <span class="text-center text-sm">Environment Art</span>
+              <span class="text-sm text-center">Environment Art</span>
             </div>            
           </div>
           
-          <div class="w-full flex flex-col items-center gap-3 p-5">
+          <div class="flex flex-col items-center w-full gap-3 p-5">
             <div class="w-[212px] h-[248px]">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Hansel&Gretel.JPG"/>
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Hansel&Gretel.JPG"/>
             </div>
             <div class="flex flex-col items-center h-[50px]">
               <span class="text-xl font-bold" text-center>Hansel & Gretel</span>
-              <span class="text-center text-sm">The Board Game </span>
+              <span class="text-sm text-center">The Board Game </span>
             </div>                       
         </div>
       </div>
     </section>
     <section id="contact-me" class="bg-blue-100">
-      <div class="py-5 flex flex-col items-center">
+      <div class="flex flex-col items-center py-5">
         <h1 class="text-4xl" style="font-family: 'Bohemian Soul', sans-serif;">Contact Me</h1>
         <div class="p-5">
           <div class="text-white bg-[#BF9BDE] p-5 rounded-xl flex flex-col items-center gap-4">
@@ -349,34 +349,34 @@
               <h3 class="text-sm">Send me your email</h3>
             </div>
             <div class="flex flex-row flex-wrap items-center gap-5">
-              <input class="p-3 m-1 text-black drop-shadow-lg rounded-3xl w-full" placeholder="Enter your email" />
-              <button class="p-3 m-1 drop-shadow-lg rounded-3xl bg-white text-black w-full" type="button">Submit</button>
+              <input class="w-full p-3 m-1 text-black drop-shadow-lg rounded-3xl" placeholder="Enter your email" />
+              <button class="w-full p-3 m-1 text-black bg-white drop-shadow-lg rounded-3xl" type="button">Submit</button>
             </div>
           </div>
         </div>
-        <div class="px-5 flex flex-row flex-wrap items-center justify-around gap-5">
-          <div class="w-10 h-10 bg-lilac rounded-lg">
-            <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Logo ig.jpg"/>
+        <div class="flex flex-row flex-wrap items-center justify-around gap-5 px-5">
+          <div class="w-10 h-10 rounded-lg bg-lilac">
+            <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Logo ig.jpg"/>
           </div>
-          <div class="w-10 h-10 bg-lilac rounded-lg">
-            <div class="w-10 h-10 bg-lilac rounded-lg">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Logo in.jpg"/>
+          <div class="w-10 h-10 rounded-lg bg-lilac">
+            <div class="w-10 h-10 rounded-lg bg-lilac">
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Logo in.jpg"/>
             </div>
           </div>
-          <div class="w-10 h-10 bg-lilac rounded-lg">
-            <div class="w-10 h-10 bg-lilac rounded-lg">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Logo yt.jpg"/>
+          <div class="w-10 h-10 rounded-lg bg-lilac">
+            <div class="w-10 h-10 rounded-lg bg-lilac">
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Logo yt.jpg"/>
             </div>
           </div>
-          <div class="w-10 h-10 bg-lilac rounded-lg">
-            <div class="w-10 h-10 bg-lilac rounded-lg">
-              <img width="1000" height="1000" class="rounded-lg w-full h-full object-cover drop-shadow-2xl" src="/Logo tw.jpg"/>
+          <div class="w-10 h-10 rounded-lg bg-lilac">
+            <div class="w-10 h-10 rounded-lg bg-lilac">
+              <img width="1000" height="1000" class="object-cover w-full h-full rounded-lg drop-shadow-2xl" src="/Logo tw.jpg"/>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="bg-yellow-100 px-2 py-6 text-center font-bold">
+    <footer class="px-2 py-6 font-bold text-center bg-yellow-100">
       <p>Made with Love by Hunhun 2023</p>
     </footer>
   </main>
